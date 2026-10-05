@@ -2,7 +2,7 @@ import React, { useState, useEffect } from 'react';
 import './index.css';
 
 // ⚠️ Thay đường link Render của cậu vào đây khi deploy online nhé!
-const API_URL = 'http://localhost:5000/api/items'; 
+const API_URL = 'https://quanlyghichu-backend.onrender.com/api/items'; 
 
 export default function App() {
   const [items, setItems] = useState([]);
